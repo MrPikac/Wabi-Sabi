@@ -1,1 +1,55 @@
-stylesheet
+body {
+	background-color: #dcbc89;
+}
+
+nav {
+	background-color: #89B5DC;
+	margin: 0px 30px 0 30px;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 15px;
+	margin: 0;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #3A4C5C;
+	transition: .6s;
+	padding: 15px;
+}
+	/*pseudo class*/
+nav ul li a:hover {
+	background-color: #61819C;
+	border-bottom: 3px;
+	padding-bottom: 10px;
+	padding-color: red;
+}
+
+img {
+	width: 400px;
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 15px;
+	border-color: black;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*DOVDE KOPIRAS I PREBACUJES SVUGDE*/
+
+h1 {
+	color: #5C441E;
+	text-align: center;
+}
+p {
+	font-size: 20px;
+}
